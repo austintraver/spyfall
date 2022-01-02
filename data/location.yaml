@@ -1,4 +1,5 @@
-Airplane:
+- name: "Airplane"
+  role:
   - "First Class Passenger"
   - "Air Marshall"
   - "Mechanic"
@@ -6,7 +7,8 @@ Airplane:
   - "Stewardess"
   - "Co-Pilot"
   - "Captain"
-Bank:
+- name: "Bank"
+  role:
   - "Armored Car Driver"
   - "Manager"
   - "Consultant"
@@ -14,7 +16,8 @@ Bank:
   - "Robber"
   - "Security Guard"
   - "Teller"
-Beach:
+- name: "Beach"
+  role:
   - "Beach Waitress"
   - "Kite Surfer"
   - "Lifeguard"
@@ -22,7 +25,8 @@ Beach:
   - "Beach Goer"
   - "Beach Photographer"
   - "Ice Cream Truck Driver"
-Broadway Theater:
+- name: "Broadway Theater"
+  role:
   - "Coat Check Lady"
   - "Prompter"
   - "Cashier"
@@ -30,7 +34,8 @@ Broadway Theater:
   - "Director"
   - "Actor"
   - "Crewman"
-Casino:
+- name: "Casino"
+  role:
   - "Bartender"
   - "Head Security Guard"
   - "Bouncer"
@@ -38,7 +43,8 @@ Casino:
   - "Hustler"
   - "Dealer"
   - "Gambler"
-Cathedral:
+- name: "Cathedral"
+  role:
   - "Priest"
   - "Beggar"
   - "Sinner"
@@ -46,7 +52,8 @@ Cathedral:
   - "Tourist"
   - "Sponsor"
   - "Choir Singer"
-Circus Tent:
+- name: "Circus Tent"
+  role:
   - "Acrobat"
   - "Animal Trainer"
   - "Magician"
@@ -54,7 +61,8 @@ Circus Tent:
   - "Fire Eater"
   - "Clown"
   - "Juggler"
-Corporate Party:
+- name: "Corporate Party"
+  role:
   - "Entertainer"
   - "Manager"
   - "Unwelcomed Guest"
@@ -62,7 +70,8 @@ Corporate Party:
   - "Secretary"
   - "Accountant"
   - "Delivery Boy"
-Crusader Army:
+- name: "Crusader Army"
+  role:
   - "Monk"
   - "Imprisoned Arab"
   - "Servant"
@@ -70,7 +79,8 @@ Crusader Army:
   - "Squire"
   - "Archer"
   - "Knight"
-Day Spa:
+- name: "Day Spa"
+  role:
   - "Customer"
   - "Stylist"
   - "Masseuse"
@@ -78,7 +88,8 @@ Day Spa:
   - "Makeup Artist"
   - "Dermatologist"
   - "Beautician"
-Embassy:
+- name: "Embassy"
+  role:
   - "Security Guard"
   - "Secretary"
   - "Ambassador"
@@ -86,7 +97,8 @@ Embassy:
   - "Tourist"
   - "Refugee"
   - "Diplomat"
-Hospital:
+- name: "Hospital"
+  role:
   - "Nurse"
   - "Doctor"
   - "Anesthesiologist"
@@ -94,7 +106,8 @@ Hospital:
   - "Patient"
   - "Therapist"
   - "Surgeon"
-Hotel:
+- name: "Hotel"
+  role:
   - "Doorman"
   - "Security Guard"
   - "Manager"
@@ -102,7 +115,8 @@ Hotel:
   - "Customer"
   - "Bartender"
   - "Bellman"
-Military Base:
+- name: "Military Base"
+  role:
   - "Deserter"
   - "Colonel"
   - "Medic"
@@ -110,7 +124,8 @@ Military Base:
   - "Sniper"
   - "Officer"
   - "Tank Engineer"
-Movie Studio:
+- name: "Movie Studio"
+  role:
   - "Stuntman"
   - "Sound Engineer"
   - "Cameraman"
@@ -118,7 +133,8 @@ Movie Studio:
   - "Costume Artist"
   - "Actor"
   - "Producer"
-Ocean Liner:
+- name: "Ocean Liner"
+  role:
   - "Rich Passenger"
   - "Cook"
   - "Captain"
@@ -126,7 +142,8 @@ Ocean Liner:
   - "Musician"
   - "Waiter"
   - "Mechanic"
-Passenger Train:
+- name: "Passenger Train"
+  role:
   - "Mechanic"
   - "Border Patrol"
   - "Train Attendant"
@@ -134,7 +151,8 @@ Passenger Train:
   - "Restaurant Chef"
   - "Engineer"
   - "Stoker"
-Pirate Ship:
+- name: "Pirate Ship"
+  role:
   - "Cook"
   - "Sailor"
   - "Slave"
@@ -142,7 +160,8 @@ Pirate Ship:
   - "Bound Prisoner"
   - "Cabin Boy"
   - "Brave Captain"
-Polar Station:
+- name: "Polar Station"
+  role:
   - "Medic"
   - "Geologist"
   - "Expedition Leader"
@@ -150,7 +169,8 @@ Polar Station:
   - "Radioman"
   - "Hydrologist"
   - "Meteorologist"
-Police Station:
+- name: "Police Station"
+  role:
   - "Detective"
   - "Lawyer"
   - "Journalist"
@@ -158,7 +178,8 @@ Police Station:
   - "Archivist"
   - "Patrol Officer"
   - "Criminal"
-Restaurant:
+- name: "Restaurant"
+  role:
   - "Musician"
   - "Customer"
   - "Bouncer"
@@ -166,7 +187,8 @@ Restaurant:
   - "Head Chef"
   - "Food Critic"
   - "Waiter"
-School:
+- name: "School"
+  role:
   - "Gym Teacher"
   - "Student"
   - "Principal"
@@ -174,7 +196,8 @@ School:
   - "Janitor"
   - "Lunch Lady"
   - "Maintenance Man"
-Service Station:
+- name: "Service Station"
+  role:
   - "Manager"
   - "Tire Specialist"
   - "Biker"
@@ -182,7 +205,8 @@ Service Station:
   - "Car Wash Operator"
   - "Electrician"
   - "Auto Mechanic"
-Space Station:
+- name: "Space Station"
+  role:
   - "Engineer"
   - "Alien"
   - "Space Tourist"
@@ -190,7 +214,8 @@ Space Station:
   - "Commander"
   - "Scientist"
   - "Doctor"
-Submarine:
+- name: "Submarine"
+  role:
   - "Cook"
   - "Commander"
   - "Sonar Technician"
@@ -198,7 +223,8 @@ Submarine:
   - "Sailor"
   - "Radioman"
   - "Navigator"
-Supermarket:
+- name: "Supermarket"
+  role:
   - "Customer"
   - "Cashier"
   - "Butcher"
@@ -206,7 +232,8 @@ Supermarket:
   - "Security Guard"
   - "Food Sample Demonstrator"
   - "Shelf Stocker"
-University:
+- name: "University"
+  role:
   - "Graduate Student"
   - "Professor"
   - "Dean"
@@ -214,7 +241,8 @@ University:
   - "Maintenance Man"
   - "Student"
   - "Janitor"
-Amusement Park:
+- name: "Amusement Park"
+  role:
   - "Ride Operator"
   - "Parent"
   - "Food Vendor"
@@ -225,7 +253,8 @@ Amusement Park:
   - "Janitor"
   - "Security Guard"
   - "Parent"
-Art Museum:
+- name: "Art Museum"
+  role:
   - "Ticket Seller"
   - "Student"
   - "Visitor"
@@ -236,7 +265,8 @@ Art Museum:
   - "Art Critic"
   - "Photographer"
   - "Tourist"
-Candy Factory:
+- name: "Candy Factory"
+  role:
   - "Madcap Redhead"
   - "Pastry Chef"
   - "Visitor"
@@ -247,7 +277,8 @@ Candy Factory:
   - "Oompa Loompa"
   - "Inspector"
   - "Machine Operator"
-Cat Show:
+- name: "Cat Show"
+  role:
   - "Judge"
   - "Cat-Handler"
   - "Veterinarian"
@@ -258,7 +289,8 @@ Cat Show:
   - "Cat Owner"
   - "Cat"
   - "Cat"
-Cemetery:
+- name: "Cemetery"
+  role:
   - "Priest"
   - "Gothic Girl"
   - "Grave Robber"
@@ -269,7 +301,8 @@ Cemetery:
   - "Relative"
   - "Flower Seller"
   - "Grave Digger"
-Coal Mine:
+- name: "Coal Mine"
+  role:
   - "Safety Inspector"
   - "Miner"
   - "Overseer"
@@ -280,7 +313,8 @@ Coal Mine:
   - "Miner"
   - "Solid Waste Engineer"
   - "Worker"
-Construction Site:
+- name: "Construction Site"
+  role:
   - "Free-Roaming Toddler"
   - "Contractor"
   - "Crane Driver"
@@ -291,7 +325,8 @@ Construction Site:
   - "Architect"
   - "Construction Worker"
   - "Construction Worker"
-Gaming Convention:
+- name: "Gaming Convention"
+  role:
   - "Blogger"
   - "Cosplayer"
   - "Gamer"
@@ -302,7 +337,8 @@ Gaming Convention:
   - "Geek"
   - "Shy Person"
   - "Famous Person"
-Gas Station:
+- name: "Gas Station"
+  role:
   - "Car Enthusiast"
   - "Service Attendant"
   - "Shopkeeper"
@@ -313,7 +349,8 @@ Gas Station:
   - "Climate Change Activist"
   - "Service Attendant"
   - "Manager"
-Harbor Docks:
+- name: "Harbor Docks"
+  role:
   - "Loader"
   - "Salty Old Pirate"
   - "Captain"
@@ -324,7 +361,8 @@ Harbor Docks:
   - "Cargo Overseer"
   - "Cargo Inspector"
   - "Smuggler"
-Ice Hockey Stadium:
+- name: "Ice Hockey Stadium"
+  role:
   - "Hockey Fan"
   - "Medic"
   - "Hockey Player"
@@ -335,7 +373,8 @@ Ice Hockey Stadium:
   - "Referee"
   - "Spectator"
   - "Hockey Player"
-Jail:
+- name: "Jail"
+  role:
   - "Wrongly Accused Man"
   - "CCTV Operator"
   - "Guard"
@@ -346,7 +385,8 @@ Jail:
   - "Criminal"
   - "Correctional Officer"
   - "Maniac"
-Jazz Club:
+- name: "Jazz Club"
+  role:
   - "Bouncer"
   - "Drummer"
   - "Pianist"
@@ -357,7 +397,8 @@ Jazz Club:
   - "Barman"
   - "VIP"
   - "Waiter"
-Library:
+- name: "Library"
+  role:
   - "Old Man"
   - "Journalist"
   - "Author"
@@ -368,7 +409,8 @@ Library:
   - "Loudmouth"
   - "Book Fanatic"
   - "Nerd"
-Night Club:
+- name: "Night Club"
+  role:
   - "Regular"
   - "Bartender"
   - "Security Guard"
@@ -379,7 +421,8 @@ Night Club:
   - "Muscly Guy"
   - "Drunk Person"
   - "Shy Person"
-Race Track:
+- name: "Race Track"
+  role:
   - "Team Owner"
   - "Driver"
   - "Engineer"
@@ -390,7 +433,8 @@ Race Track:
   - "Commentator"
   - "Bookmaker"
   - "Spectator"
-Retirement Home:
+- name: "Retirement Home"
+  role:
   - "Relative"
   - "Cribbage Player"
   - "Old Person"
@@ -401,7 +445,8 @@ Retirement Home:
   - "Psychologist"
   - "Old Person"
   - "Nurse"
-Rock Concert:
+- name: "Rock Concert"
+  role:
   - "Dancer"
   - "Singer"
   - "Fan"
@@ -412,7 +457,8 @@ Rock Concert:
   - "Security Guard"
   - "Bassist"
   - "Technical Support"
-Sightseeing Bus:
+- name: "Sightseeing Bus"
+  role:
   - "Old Man"
   - "Lone Tourist"
   - "Driver"
@@ -423,7 +469,8 @@ Sightseeing Bus:
   - "Tourist"
   - "Lost Person"
   - "Tourist"
-Stadium:
+- name: "Stadium"
+  role:
   - "Medic"
   - "Hammer Thrower"
   - "Athlete"
@@ -434,7 +481,8 @@ Stadium:
   - "Food Vendor"
   - "High Jumper"
   - "Sprinter"
-Subway:
+- name: "Subway"
+  role:
   - "Tourist"
   - "Subway Operator"
   - "Ticket Inspector"
@@ -445,7 +493,8 @@ Subway:
   - "Ticket Seller"
   - "Old Lady"
   - "Blind Man"
-The U.N.:
+- name: "The U.N."
+  role:
   - "Diplomat"
   - "Interpreter"
   - "Blowhard"
@@ -456,7 +505,8 @@ The U.N.:
   - "Speaker"
   - "Secretary-General"
   - "Lobbyist"
-Vineyard:
+- name: "Vineyard"
+  role:
   - "Gardener"
   - "Gourmet Guide"
   - "Winemaker"
@@ -467,7 +517,8 @@ Vineyard:
   - "Rich Lord"
   - "Vineyard Manager"
   - "Enologist"
-Wedding:
+- name: "Wedding"
+  role:
   - "Ring Bearer"
   - "Groom"
   - "Bride"
@@ -478,7 +529,8 @@ Wedding:
   - "Wedding Crasher"
   - "Best Man"
   - "Relative"
-Zoo:
+- name: "Zoo"
+  role:
   - "Zookeeper"
   - "Visitor"
   - "Photographer"
