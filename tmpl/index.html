@@ -1,0 +1,39 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <title>Spyfall</title>
+    <script defer>
+        document.addEventListener('DOMContentLoaded', () => {
+            let src = new EventSource('/events')
+            console.log(
+                src.withCredentials,
+                src.readyState,
+                src.url,
+            )
+            src.addEventListener('open', () => {
+                console.log("Connection to server opened.")
+            })
+
+            src.addEventListener('message', (e) => {
+                console.log(`message: ${e.data}`)
+            })
+
+            src.addEventListener('error', () => {
+                console.log("EventSource failed.")
+            })
+
+            let button = document.querySelector('button')
+            button.onclick = function () {
+                src.close()
+                console.log('Connection closed')
+            }
+        })
+    </script>
+</head>
+<body>
+<h1>Welcome to Spyfall!</h1>
+<p> Your name is {{ .Name }}</p>
+<p> Your role is {{ .Role }}</p>
+<button>Close the connection</button>
+</body>
+</html>
