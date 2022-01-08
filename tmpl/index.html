@@ -16,33 +16,7 @@
           href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16"
           href="/img/favicon-16x16.png">
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            let src = new EventSource('/events')
-            console.log(
-                src.withCredentials,
-                src.readyState,
-                src.url,
-            )
-            src.addEventListener('open', () => {
-                console.log("Connection to server opened.")
-            })
-
-            src.addEventListener('message', (e) => {
-                console.log(`message: ${e.data}`)
-            })
-
-            src.addEventListener('error', () => {
-                console.log("EventSource failed.")
-            })
-
-            let button = document.querySelector('button')
-            button.onclick = function () {
-                src.close()
-                console.log('Connection closed')
-            }
-        })
-    </script>
+    <script defer src="/index.js"></script>
 </head>
 <body>
 <h1>Welcome to Spyfall!</h1>
