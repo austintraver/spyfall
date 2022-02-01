@@ -1,0 +1,67 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+  <title>Spyfall</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Spyfall">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://spyfall.xyz">
+  <meta property="og:description"
+        content="Find the spy before time runs out!">
+  <meta property="og:image" content="/img/icon.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+        href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+        href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16"
+        href="/img/favicon-16x16.png">
+  <script defer src="/game.js"></script>
+</head>
+<body>
+
+<!-- TODO: When this page initially loads, have the server render the value of
+      this text to contain each user's unique name and location. -->
+<h1> Name: {{ .Name }}</h1>
+<h2> Role: {{ .Role }}</h2>
+{{ if .Role == "spy" }}
+<h2> You are the spy!</h2>
+{{ else }}
+<h2> Location: {{ .Location }}</h2>
+{{ end }}
+
+<hr>
+
+<!-- TODO: When this page initially loads, have the server render the value of
+      this text to be in a format that can be easily passed back and forth
+      between the client and the server. -->
+
+<!-- TODO: Create a looping JavaScript event that decrements this timer until
+      the players run out of time. -->
+<!--<h2>Time remaining: <time id="timer">{{ .Time }}</time></h2>-->
+<h2>Time remaining:
+  <time id="timer">04:59</time>
+</h2>
+
+<hr>
+
+<!-- TODO: Provide players with the ability to select a player's name to
+      toggle a strikethrough effect. -->
+
+<!-- TODO: Statically render the contents of the player list.-->
+<ul class="players">
+  {{ range .Players }}
+  <li class="player">{{ .Name }}</li>
+  {{ end }}
+</ul>
+
+<hr>
+
+<!-- TODO: Create a grid of location images to display, thereby illuminating
+      the possible list of locations to each player in the game. -->
+
+<!-- TODO: Provide players with the ability to select a location to
+      toggle a fadeout effect, so as to "rule out" this location as they
+      narrow down which places are still plausible. -->
+</body>
+</html>
