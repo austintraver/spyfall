@@ -16,3 +16,14 @@
 
 # The './spyfall' binary executable itself.
 /spyfall
+
+# TypeScript info files
+*.d.ts
+*.map
+
+# Compiled JavaScript files
+*.js
+
+*.tsbuildinfo
+
+node_modules/
